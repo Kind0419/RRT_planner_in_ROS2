@@ -1,0 +1,9 @@
+<library path="nav2_rrt_planner_plugin">
+  <!-- path：与 CMake 生成的动态库名称完全一致（不含lib前缀） -->
+  <class name="nav2_rrt_planner::RRT" 
+         type="nav2_rrt_planner::RRT" 
+         base_class_type="nav2_core::GlobalPlanner">
+    <!-- name/type：与代码中 PLUGINLIB_EXPORT_CLASS 的第一个参数完全一致 -->
+    <description>RRT 全局规划器插件</description>
+  </class>
+</library>
